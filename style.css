@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background: linear-gradient(135deg, #f77b47, #f7a06d);
+
+  /* clip-path */
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.text {
+  color: white;
+  width: 45%;
+}
+
+.text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+}
+
+.image img {
+  width: 280px;
+
+  /* diamond shape */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
